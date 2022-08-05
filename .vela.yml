@@ -1,0 +1,10 @@
+version: "1"
+
+steps:
+  - name: hello world
+    image: alpine:latest
+    pull: always
+    environment:
+      NAME: world
+    commands:
+      - echo hello $NAME
