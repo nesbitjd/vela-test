@@ -8,4 +8,4 @@ steps:
       NAME: world
     commands:
       - echo hello $NAME
-      - echo take two
+      - echo take three
